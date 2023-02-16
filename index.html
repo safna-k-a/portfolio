@@ -293,19 +293,22 @@
                         <p class="headings">GET IN TOUCH</p>
                     </div>
                     <div class="touch-name col-sm-8">
-                        <form class="">
+                        <form class="" action="" onsubmit="return validate()">
                             <div class="row">
                                 <input
                                     type="text"
                                     placeholder="Full Name"
                                     class="fname col-sm-10"
+                                    id="text1"
                                 />
                             </div>
+                            <p id="para1"></p>
                             <div class="touch-email row">
                                 <input
                                     type="email"
                                     placeholder="email"
                                     class="fname col-sm-10"
+                                    id="text2"
                                 />
                             </div>
                             <div class="touch-sub row">
@@ -313,12 +316,14 @@
                                     type="text"
                                     placeholder="Subject"
                                     class="fname col-sm-10"
+                                    id="text3"
                                 />
                             </div>
                             <div class="touch-msg row">
                                 <textarea
                                     placeholder="Write Message"
                                     class="fname col-sm-10"
+                                    id="text4"
                                 ></textarea>
                             </div>
                             <div>
